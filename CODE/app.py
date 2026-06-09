@@ -76,7 +76,7 @@ if submit_button:
                     
                     # 4. Actualizar la hoja de cálculo
                     try:
-                        existing_data = conn.read(worksheet="Datos")
+                        existing_data = conn.read(worksheet="Datos", ttl=0)
                         updated_data = pd.concat([existing_data, new_row], ignore_index=True)
                     except Exception:
                         updated_data = new_row

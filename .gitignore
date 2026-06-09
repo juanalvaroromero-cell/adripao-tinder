@@ -16,5 +16,6 @@ QR/
 *.pdf
 *.doc
 *.bat
+*.png
 # ficheros
 generate_qr.py
