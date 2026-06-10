@@ -19,3 +19,7 @@ QR/
 *.png
 # ficheros
 generate_qr.py
+admin_panel.py
+# Archivos temporales de Python
+__pycache__/
+*.pyc
